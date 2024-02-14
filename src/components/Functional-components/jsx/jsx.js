@@ -253,38 +253,40 @@ const Profile =()=>{
       ]
     const {name,address,url,dimensions}=profileInformation
     return(
-        <div>
-           <h2>{name}</h2>
-           <h2>{address}</h2>
-           <h2>{url}</h2>
-           <h2>{imageArray}</h2>
+        <table>
+          <tr>
+           <th>{name}</th>
+           <th>{address}</th>
+           <th>{url}</th>
+           <th>{imageArray}</th></tr>
            {
-                // imageArray.map((eachItem)=>{
-                //     return(
-                //         <div>
-                //             <img src={eachItem} width={dimensions} height={dimensions} />
-                //             </div>
-                //     )
-                // })
+                imageArray.map((eachItem)=>{
+                    return(
+                        <div>
+                            <img src={eachItem} alt="" width={dimensions} height={dimensions} />
+                            </div>
+                    )
+                })
             } 
    {
     productInformation.map((eachItem)=>{
         const{title,price,rating:{count},image}=eachItem
         return(
-            <div>
+            <table>
+              <tr>
                  <img src={image}  alt="img"  width={dimensions} height={dimensions} />
-                 <h4>{title}</h4>
-                 <h4>{price}</h4>
-                 <h4>{count}</h4>
+                 <th>{title}</th>
+                 <th>{price}</th>
+                 <th>{count}</th>
+</tr>
 
-
-            </div>
+            </table>
         )
     })
    }
 
 
-        </div>
+        </table>
     )
 }
 
