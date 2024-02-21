@@ -1,4 +1,4 @@
-import ImageComponent from "../../image/image-component"
+import ImageComponent from "./imagecomponent"
 
 
 
