@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import React from 'react';
-import OrderedList from '../list/order-list/ordered-list';
+// import OrderedList from '../list/order-list/ordered-list';
 import AnimatedToast from '../toast/toast';
 
 function MyVerticallyCenteredModal(props) {
@@ -18,7 +18,7 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <OrderedList/>
+        {/* <OrderedList/> */}
         <AnimatedToast/>
       </Modal.Body>
       <Modal.Footer>
