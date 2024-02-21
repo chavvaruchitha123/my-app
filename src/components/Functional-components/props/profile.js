@@ -1,7 +1,6 @@
 import TextComponent from "../props/imagecomponent"
 import ButtonComponent from "../button/button"
 import ImageComponent from "../text/textcomponent"
-import { object } from "prop-types"
 
 
 
@@ -29,7 +28,7 @@ const Profile=()=>{
 
 
           {
-            productInformation.map((eachObject)=>{
+            ProductInformation.map((eachObject)=>{
                 return(
                     <div>
                         <TextComponent  title={eachObject.title} textColor={"black"}  />
@@ -48,7 +47,7 @@ const Profile=()=>{
 }
 export default Profile
 
-const productInformation=[
+const ProductInformation=[
     {
       "id": 1,
       "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
