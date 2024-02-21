@@ -1,6 +1,7 @@
 import TextComponent from "../props/imagecomponent"
 import ButtonComponent from "../button/button"
 import ImageComponent from "../text/textcomponent"
+import { object } from "prop-types"
 
 
 
@@ -46,7 +47,6 @@ const Profile=()=>{
     )
 }
 export default Profile
-
 
 const productInformation=[
     {
