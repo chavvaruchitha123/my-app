@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import List from './components/Functional-components/jsx/listjsx';
+import ButtonComponent from './components/Functional-components/jsx/buttonjsx';
+import Formcomponent from './components/Functional-components/jsx/formjsx';
+import ImageComponent from './components/Functional-components/jsx/imagejsx';
+import TableComponent from './components/Functional-components/jsx/tablejsx';
 // import ButtonComponent from './components/Functional-components/button/button-component';
 // import OrderedList from './components/Functional-components/List/order list/orderedlist/orderedlist';
 // import UnOrderedList from './components/Functional-components/List/order list/unorder-list';
@@ -19,7 +23,11 @@ function App() {
     <ImageComponent></ImageComponent>
     <ImageComponent></ImageComponent>
     <TableComponent></TableComponent> */}
-    <List></List>
+    {/* <List></List> */}
+    <ButtonComponent></ButtonComponent>
+    <Formcomponent></Formcomponent>
+    <ImageComponent></ImageComponent>
+    <TableComponent></TableComponent>
 
     
     </div>
