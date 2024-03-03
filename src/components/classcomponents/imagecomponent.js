@@ -21,7 +21,7 @@ class ImageComponent extends Component{
                 console.log(this.state.salary)
             }
         )
-        console.log(this.state.salary,"outside")
+        // console.log(this.state.salary,"outside")
 
     }
 
