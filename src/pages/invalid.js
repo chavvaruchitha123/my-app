@@ -12,7 +12,6 @@ const InvalidScreen =()=>{
         {/* <Headers></Headers> */}
         <h2>404 error</h2>
         <button onClick={handleRoute}>Go to home</button>
-       
         </>
     )
 }
