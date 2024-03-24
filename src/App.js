@@ -1,6 +1,10 @@
 // import logo from './logo.svg';
-import './App.css';
-import ComponentA from './context/componentA';
+
+// import LifeCycle from "./context/lifecyclemethods";
+import ApiExample from "./context/useeffect";
+import UseEffect from "./context/useeffect";
+
+// import ComponentA from './context/componentA';
 // import ButtonComponent from './components/Functional-components/button/button-component';
 // import OrderedList from './components/Functional-components/List/order list/orderedlist/orderedlist';
 // import UnOrderedList from './components/Functional-components/List/order list/unorder-list';
@@ -10,7 +14,10 @@ import ComponentA from './context/componentA';
 function App() {
   return (
     <div>
-      <ComponentA></ComponentA>
+      <ApiExample></ApiExample>
+      {/* <ComponentA></ComponentA> */}
+      {/* <LifeCycle></LifeCycle> */}
+      {/* <UseEffect></UseEffect> */}
         {/* <h1>Hello world</h1>
     <ButtonComponent></ButtonComponent>
     <OrderedList></OrderedList>
